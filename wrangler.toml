@@ -1,0 +1,12 @@
+name = "real-cost-calculator-india"
+compatibility_date = "2024-11-01"
+main = "worker.ts"
+
+# Serves the current directory as static assets
+# This includes your index.html, index.tsx, and all component files.
+[assets]
+directory = "./"
+binding = "ASSETS"
+
+[observability]
+enabled = true
