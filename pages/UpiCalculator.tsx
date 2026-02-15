@@ -40,7 +40,7 @@ export default function UpiCalculator() {
           onChange={(e) => setFeePercent(Number(e.target.value))}
           className="w-full p-3 bg-white text-slate-900 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
         />
-        <p className="text-xs text-slate-500 mt-1">Interchange fees for PPI wallets are roughly 1.1% for > ₹2000.</p>
+        <p className="text-xs text-slate-500 mt-1">Interchange fees for PPI wallets are roughly 1.1% for {'>'} ₹2000.</p>
       </div>
     </div>
   );
